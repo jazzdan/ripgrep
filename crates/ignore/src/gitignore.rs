@@ -704,6 +704,7 @@ mod tests {
     ignored!(ig42, ROOT, "s*.rs", "sfoo.rs");
     ignored!(ig43, ROOT, "**", "foo.rs");
     ignored!(ig44, ROOT, "**/**/*", "a/foo.rs");
+    ignored!(ig45, ROOT, "target/", "target/tcr.d");
 
     not_ignored!(ignot1, ROOT, "amonths", "months");
     not_ignored!(ignot2, ROOT, "monthsa", "months");
